@@ -1,4 +1,4 @@
-.hero {
+#hero {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -54,5 +54,81 @@
         color: $hover-color;
       }
     }
+  }
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18rem 8rem;
+  gap: 10rem;
+  scroll-margin-top: 20rem;
+
+  & .iframe-info {
+    width: 700px;
+    height: calc(700px / 1.777);
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 35%;
+
+    & .about-01,
+    .about-02 {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+
+      & h2 {
+        font-family: Oswald, sans-serif;
+        font-weight: bolder;
+        line-height: 3rem;
+        font-size: 2.9rem;
+      }
+    }
+  }
+}
+
+#launch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-inline: 8rem;
+  margin-bottom: 18rem;
+
+  & .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    & h1 {
+      font-family: bokor, serif;
+      letter-spacing: 3px;
+      line-height: 8rem;
+      font-size: 7rem;
+      width: 700px;
+    }
+
+    & p:first-child {
+      font-size: 2.5rem;
+    }
+
+    & p:last-child {
+      font-size: 1.8rem;
+    }
+
+    & span {
+      color: $info-color;
+    }
+  }
+
+  & .iframe-launch {
+    width: 1350px;
+    height: (1350px / 1.777);
+    margin-block: 4rem;
   }
 }
