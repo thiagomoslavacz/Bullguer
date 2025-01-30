@@ -30,7 +30,7 @@
     <title>Início - Bullguer</title>
   </head>
   <body>
-    <section class="hero">
+    <section id="hero">
       <video autoplay muted loop class="hero-video">
         <source src="assets/videoplayback.webm" type="video/webm" />
         Seu navegador não suporta a tag de vídeo.
@@ -49,10 +49,10 @@
       </div>
       <nav>
         <ul>
-          <a href="#header" class="first">
+          <a href="#hero" class="first">
             <li>Início</li>
           </a>
-          <a href="">
+          <a href="#info">
             <li>Sobre</li>
           </a>
           <a href="">
@@ -78,5 +78,58 @@
         </div>
       </nav>
     </header>
+
+    <section id="info">
+      <iframe
+        class="iframe-info"
+        src="https://www.youtube.com/embed/A_39vJXG1zo?si=I2lVVpjfFdffLxd6&rel=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <div class="about">
+        <div class="about-01">
+          <h2>BULLGUER</h2>
+          <p>
+            Iniciamos nossa jornada em 2015 com a abertura da primeira unidade.
+            Hoje, estamos presentes em mais de 30 lojas espalhadas pelo Brasil e
+            expandimos nossas fronteiras ao inaugurar nossa primeira unidade
+            internacional em Portugal.
+          </p>
+        </div>
+        <div class="about-02">
+          <h2>NA CONTRA MÃO DAS HAMBURGUERIAS GOURMET</h2>
+          <p>
+            Destino certeiro para os que procuram sanduíches bons e baratos, nós
+            lançamos tendência e iniciamos um novo ciclo no mercado das
+            hamburguerias paulistanas ao inaugurarmos em 2015. As louças,
+            talheres e ingredientes exóticos das casas gourmets deram lugar à
+            uma nova onda de sanduíches despretensiosos, que apostam nas
+            combinações clássicas e são servidos de forma rápida, em embalagens
+            descartáveis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="launch">
+      <div class="content">
+        <p>Direto do <span>Japão</span>, o Bullguer apresenta</p>
+        <h1>SHIBUYA BURGUER & CHICKEN TAMAGO SANDO</h1>
+        <p>Se é pra viajar, que seja na <span>maionese</span></p>
+      </div>
+      <iframe
+        class="iframe-launch"
+        src="https://www.youtube.com/embed/-XDY27Euecw?si=4afSwA1Lo43i0fvb&rel=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <p>Lançamento</p>
+    </section>
   </body>
 </html>
